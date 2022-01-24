@@ -38,12 +38,12 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.79875547, g: 0.79875153, b: 0.79875416, a: 1}
+  m_IndirectSpecularColor: {r: 0.7987504, g: 0.7987409, b: 0.798748, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 11
+  serializedVersion: 12
   m_GIWorkflowMode: 0
   m_GISettings:
     serializedVersion: 2
@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 45480d2aad15b4d18be23e80b22ded7a, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -118,6 +118,8 @@ NavMeshSettings:
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
@@ -247,6 +249,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 114501696213753918, guid: fca9d4afb3743274e8f7da14019d7e0b, type: 3}
+      propertyPath: _normcoreAppSettings
+      value: 
+      objectReference: {fileID: 11400000, guid: a9a3f660eb1194bf69735eef87884c01, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fca9d4afb3743274e8f7da14019d7e0b, type: 3}
 --- !u!1001 &1507058493
@@ -256,28 +262,23 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5186247628445373749, guid: 0317d2532e17f104fabb5020a7e94e65,
-        type: 3}
+    - target: {fileID: 5186247628445373749, guid: 0317d2532e17f104fabb5020a7e94e65, type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5186247628445373749, guid: 0317d2532e17f104fabb5020a7e94e65,
-        type: 3}
+    - target: {fileID: 5186247628445373749, guid: 0317d2532e17f104fabb5020a7e94e65, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5186247628445373749, guid: 0317d2532e17f104fabb5020a7e94e65,
-        type: 3}
+    - target: {fileID: 5186247628445373749, guid: 0317d2532e17f104fabb5020a7e94e65, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5186247628445373749, guid: 0317d2532e17f104fabb5020a7e94e65,
-        type: 3}
+    - target: {fileID: 5186247628445373749, guid: 0317d2532e17f104fabb5020a7e94e65, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5186247628445373750, guid: 0317d2532e17f104fabb5020a7e94e65,
-        type: 3}
+    - target: {fileID: 5186247628445373750, guid: 0317d2532e17f104fabb5020a7e94e65, type: 3}
       propertyPath: m_Name
       value: Environment
       objectReference: {fileID: 0}
