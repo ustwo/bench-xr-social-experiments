@@ -1515,9 +1515,9 @@ MonoBehaviour:
   m_EnableStrafe: 1
   m_UseGravity: 1
   m_GravityApplicationMode: 0
-  m_ForwardSource: {fileID: 0}
+  m_ForwardSource: {fileID: 963194228}
   m_LeftHandMoveAction:
-    m_UseReference: 0
+    m_UseReference: 1
     m_Action:
       m_Name: Left Hand Move
       m_Type: 0
@@ -1529,7 +1529,7 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 6972639530819350904, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_RightHandMoveAction:
-    m_UseReference: 0
+    m_UseReference: 1
     m_Action:
       m_Name: Right Hand Move
       m_Type: 0
@@ -1553,7 +1553,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Timeout: 10
-  m_XROrigin: {fileID: 0}
+  m_XROrigin: {fileID: 1831760831}
 --- !u!114 &1831760835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1566,13 +1566,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2213c36610e3b1c4bbf886810ed9db12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_System: {fileID: 0}
+  m_System: {fileID: 1831760834}
   m_TurnAmount: 45
   m_DebounceTime: 0.5
   m_EnableTurnLeftRight: 1
   m_EnableTurnAround: 1
   m_LeftHandSnapTurnAction:
-    m_UseReference: 1
+    m_UseReference: 0
     m_Action:
       m_Name: Left Hand Snap Turn
       m_Type: 0
@@ -1684,10 +1684,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _localAvatarPrefab: {fileID: 4581029589153058604, guid: 3ca01a41bdadc4385a9efb81900c37a1, type: 3}
   _localPlayer:
-    root: {fileID: 0}
-    head: {fileID: 0}
-    leftHand: {fileID: 0}
-    rightHand: {fileID: 0}
+    root: {fileID: 963194228}
+    head: {fileID: 963194228}
+    leftHand: {fileID: 612605971}
+    rightHand: {fileID: 1299636955}
 --- !u!114 &2138311963
 MonoBehaviour:
   m_ObjectHideFlags: 0
