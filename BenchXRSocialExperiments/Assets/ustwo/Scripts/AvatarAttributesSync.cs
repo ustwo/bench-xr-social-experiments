@@ -6,7 +6,7 @@ using TMPro;
 
 public class AvatarAttributesSync : RealtimeComponent<AvatarAttributesModel>
 {
-    public TextMeshPro playerNameText;
+    public TextMeshProUGUI playerNameText;
 
     private string playerName;
 
@@ -31,7 +31,7 @@ public class AvatarAttributesSync : RealtimeComponent<AvatarAttributesModel>
             model.nickname = playerName;
 
             // We don't need to see our own nickname
-            playerNameText.enabled = false;
+            //playerNameText.enabled = false;
         }
     }
 
