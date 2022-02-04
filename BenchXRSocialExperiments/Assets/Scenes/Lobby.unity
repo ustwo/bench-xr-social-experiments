@@ -1671,6 +1671,7 @@ GameObject:
   - component: {fileID: 2138311964}
   - component: {fileID: 2138311963}
   - component: {fileID: 2138311962}
+  - component: {fileID: 2138311966}
   m_Layer: 0
   m_Name: Realtime + VR Player
   m_TagString: Untagged
@@ -1692,10 +1693,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _localAvatarPrefab: {fileID: 4581029589153058604, guid: 3ca01a41bdadc4385a9efb81900c37a1, type: 3}
   _localPlayer:
-    root: {fileID: 0}
-    head: {fileID: 0}
-    leftHand: {fileID: 0}
-    rightHand: {fileID: 0}
+    root: {fileID: 1831760832}
+    head: {fileID: 963194228}
+    leftHand: {fileID: 612605971}
+    rightHand: {fileID: 1299636955}
 --- !u!114 &2138311963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1726,3 +1727,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2138311966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138311961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -363599832, guid: c424820a8880b8845bda10ec0b41507e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _realtime: {fileID: 2138311963}
+  _sceneViewUUID: 
+  _viewUUID: 5378a37c-310f-4d5c-9b78-2868ea26309f
+  _sceneViewPreventOwnershipTakeover: 0
+  _sceneViewDestroyWhenOwnerOrLastClientLeaves: 1
+  _sceneViewDestroyWhenOwnerOrLastClientLeavesMigrated: 0
+  _sceneViewDestroyWhenLastClientLeaves: 1
+  _components: []
+  _childViews: []
