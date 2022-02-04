@@ -6,7 +6,7 @@ using TMPro;
 
 public class AvatarAttributesSync : RealtimeComponent<AvatarAttributesModel>
 {
-    public TextMeshProUGUI playerNameText;
+    public TextMeshPro playerNameText;
 
     private string playerName;
 
