@@ -58,6 +58,7 @@ GameObject:
   - component: {fileID: 3578155765099688987}
   - component: {fileID: 8273873391330402783}
   - component: {fileID: 8273873391330402768}
+  - component: {fileID: 4182433038424955952}
   m_Layer: 0
   m_Name: Teal Sphere
   m_TagString: Untagged
@@ -362,6 +363,18 @@ MonoBehaviour:
   - componentID: 3
     component: {fileID: 3578155765099688987}
   _childViews: []
+--- !u!114 &4182433038424955952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8273873391330402757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 817122c05272d4842aed49a518121d45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8273873391330402758
 GameObject:
   m_ObjectHideFlags: 0
@@ -380,6 +393,7 @@ GameObject:
   - component: {fileID: 8754189820377131888}
   - component: {fileID: 8273873391330402769}
   - component: {fileID: 8273873391330402770}
+  - component: {fileID: 5757038763917195855}
   m_Layer: 0
   m_Name: Red Sphere
   m_TagString: Untagged
@@ -684,6 +698,18 @@ MonoBehaviour:
   - componentID: 3
     component: {fileID: 8754189820377131888}
   _childViews: []
+--- !u!114 &5757038763917195855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8273873391330402758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 817122c05272d4842aed49a518121d45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8273873391330402759
 GameObject:
   m_ObjectHideFlags: 0
@@ -702,6 +728,7 @@ GameObject:
   - component: {fileID: 5450194272956301628}
   - component: {fileID: 8273873391330402771}
   - component: {fileID: 8273873391330402772}
+  - component: {fileID: 3385767628460851739}
   m_Layer: 0
   m_Name: Purple Sphere
   m_TagString: Untagged
@@ -1006,6 +1033,18 @@ MonoBehaviour:
   - componentID: 3
     component: {fileID: 5450194272956301628}
   _childViews: []
+--- !u!114 &3385767628460851739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8273873391330402759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 817122c05272d4842aed49a518121d45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8273873391330402776
 GameObject:
   m_ObjectHideFlags: 0
@@ -1024,6 +1063,7 @@ GameObject:
   - component: {fileID: 399948010572593842}
   - component: {fileID: 8273873391330402773}
   - component: {fileID: 8273873391330402774}
+  - component: {fileID: 3195926241413479671}
   m_Layer: 0
   m_Name: Blue Sphere
   m_TagString: Untagged
@@ -1328,6 +1368,18 @@ MonoBehaviour:
   - componentID: 3
     component: {fileID: 399948010572593842}
   _childViews: []
+--- !u!114 &3195926241413479671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8273873391330402776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 817122c05272d4842aed49a518121d45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8273873391330402777
 GameObject:
   m_ObjectHideFlags: 0
@@ -1346,6 +1398,7 @@ GameObject:
   - component: {fileID: 6343977719548570169}
   - component: {fileID: 8273873391330402775}
   - component: {fileID: 8273873391330402600}
+  - component: {fileID: 2655474502545693535}
   m_Layer: 0
   m_Name: Orange Sphere
   m_TagString: Untagged
@@ -1650,6 +1703,18 @@ MonoBehaviour:
   - componentID: 3
     component: {fileID: 6343977719548570169}
   _childViews: []
+--- !u!114 &2655474502545693535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8273873391330402777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 817122c05272d4842aed49a518121d45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8273873391330402778
 GameObject:
   m_ObjectHideFlags: 0
@@ -1668,6 +1733,7 @@ GameObject:
   - component: {fileID: 1983456849236084265}
   - component: {fileID: 8273873391330402601}
   - component: {fileID: 8273873391330402602}
+  - component: {fileID: 6056005691012722170}
   m_Layer: 0
   m_Name: Yellow Cube
   m_TagString: Untagged
@@ -1972,6 +2038,18 @@ MonoBehaviour:
   - componentID: 3
     component: {fileID: 1983456849236084265}
   _childViews: []
+--- !u!114 &6056005691012722170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8273873391330402778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 817122c05272d4842aed49a518121d45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8273873391330402779
 GameObject:
   m_ObjectHideFlags: 0
@@ -1990,6 +2068,7 @@ GameObject:
   - component: {fileID: 2984440580727359774}
   - component: {fileID: 8273873391330402603}
   - component: {fileID: 8273873391330402604}
+  - component: {fileID: 1952218810340968398}
   m_Layer: 0
   m_Name: Teal Cube
   m_TagString: Untagged
@@ -2294,6 +2373,18 @@ MonoBehaviour:
   - componentID: 3
     component: {fileID: 2984440580727359774}
   _childViews: []
+--- !u!114 &1952218810340968398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8273873391330402779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 817122c05272d4842aed49a518121d45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8273873391330402780
 GameObject:
   m_ObjectHideFlags: 0
@@ -2312,6 +2403,7 @@ GameObject:
   - component: {fileID: 7324161047223694285}
   - component: {fileID: 8273873391330402605}
   - component: {fileID: 8273873391330402606}
+  - component: {fileID: 4420392008745090393}
   m_Layer: 0
   m_Name: Blue Cube
   m_TagString: Untagged
@@ -2616,6 +2708,18 @@ MonoBehaviour:
   - componentID: 3
     component: {fileID: 7324161047223694285}
   _childViews: []
+--- !u!114 &4420392008745090393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8273873391330402780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 817122c05272d4842aed49a518121d45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8273873391330402781
 GameObject:
   m_ObjectHideFlags: 0
@@ -2634,6 +2738,7 @@ GameObject:
   - component: {fileID: 8685221300628744084}
   - component: {fileID: 8273873391330402607}
   - component: {fileID: 8273873391330402592}
+  - component: {fileID: 5753839708363735981}
   m_Layer: 0
   m_Name: Purple Cube
   m_TagString: Untagged
@@ -2938,6 +3043,18 @@ MonoBehaviour:
   - componentID: 3
     component: {fileID: 8685221300628744084}
   _childViews: []
+--- !u!114 &5753839708363735981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8273873391330402781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 817122c05272d4842aed49a518121d45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8273873391330402782
 GameObject:
   m_ObjectHideFlags: 0
@@ -2956,6 +3073,7 @@ GameObject:
   - component: {fileID: 5733500726028837060}
   - component: {fileID: 8273873391330402593}
   - component: {fileID: 8273873391330402594}
+  - component: {fileID: 1085002833157479458}
   m_Layer: 0
   m_Name: Red Cube
   m_TagString: Untagged
@@ -3260,3 +3378,15 @@ MonoBehaviour:
   - componentID: 3
     component: {fileID: 5733500726028837060}
   _childViews: []
+--- !u!114 &1085002833157479458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8273873391330402782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 817122c05272d4842aed49a518121d45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
