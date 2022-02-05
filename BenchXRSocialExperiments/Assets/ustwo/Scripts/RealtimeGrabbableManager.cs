@@ -45,5 +45,4 @@ public class RealtimeGrabbableManager : MonoBehaviour
     {
         realtimeTransform.RequestOwnership();
     }
-
 }
