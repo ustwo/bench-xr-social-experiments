@@ -56,8 +56,6 @@ GameObject:
   - component: {fileID: 8273873391330402596}
   - component: {fileID: 3300094195385990127}
   - component: {fileID: 3578155765099688987}
-  - component: {fileID: 8273873391330402783}
-  - component: {fileID: 8273873391330402768}
   - component: {fileID: 4182433038424955952}
   m_Layer: 0
   m_Name: Teal Sphere
@@ -294,9 +292,9 @@ MonoBehaviour:
   _sceneViewDestroyWhenLastClientLeaves: 1
   _components:
   - componentID: 1
-    component: {fileID: 8273873391330402783}
+    component: {fileID: 0}
   - componentID: 2
-    component: {fileID: 8273873391330402768}
+    component: {fileID: 0}
   - componentID: 3
     component: {fileID: 3578155765099688987}
   _childViews: []
@@ -318,51 +316,6 @@ MonoBehaviour:
   _syncScale: 1
   _syncVelocity: 1
   _maintainOwnershipWhileSleeping: 0
---- !u!114 &8273873391330402783
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8273873391330402757}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1029778088, guid: c424820a8880b8845bda10ec0b41507e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interpolate: 1
-  _syncPosition: 1
-  _syncRotation: 1
-  _syncScale: 1
-  _syncVelocity: 1
-  _maintainOwnershipWhileSleeping: 0
---- !u!114 &8273873391330402768
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8273873391330402757}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -363599832, guid: c424820a8880b8845bda10ec0b41507e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _realtime: {fileID: 0}
-  _sceneViewUUID: 
-  _viewUUID: 
-  _sceneViewPreventOwnershipTakeover: 0
-  _sceneViewDestroyWhenOwnerOrLastClientLeaves: 1
-  _sceneViewDestroyWhenOwnerOrLastClientLeavesMigrated: 0
-  _sceneViewDestroyWhenLastClientLeaves: 1
-  _components:
-  - componentID: 1
-    component: {fileID: 8273873391330402783}
-  - componentID: 2
-    component: {fileID: 3300094195385990127}
-  - componentID: 3
-    component: {fileID: 3578155765099688987}
-  _childViews: []
 --- !u!114 &4182433038424955952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -391,8 +344,6 @@ GameObject:
   - component: {fileID: 8273873391330402618}
   - component: {fileID: 5750298011185261378}
   - component: {fileID: 8754189820377131888}
-  - component: {fileID: 8273873391330402769}
-  - component: {fileID: 8273873391330402770}
   - component: {fileID: 5757038763917195855}
   m_Layer: 0
   m_Name: Red Sphere
@@ -629,9 +580,9 @@ MonoBehaviour:
   _sceneViewDestroyWhenLastClientLeaves: 1
   _components:
   - componentID: 1
-    component: {fileID: 8273873391330402769}
+    component: {fileID: 0}
   - componentID: 2
-    component: {fileID: 8273873391330402770}
+    component: {fileID: 0}
   - componentID: 3
     component: {fileID: 8754189820377131888}
   _childViews: []
@@ -653,51 +604,6 @@ MonoBehaviour:
   _syncScale: 1
   _syncVelocity: 1
   _maintainOwnershipWhileSleeping: 0
---- !u!114 &8273873391330402769
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8273873391330402758}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1029778088, guid: c424820a8880b8845bda10ec0b41507e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interpolate: 1
-  _syncPosition: 1
-  _syncRotation: 1
-  _syncScale: 1
-  _syncVelocity: 1
-  _maintainOwnershipWhileSleeping: 0
---- !u!114 &8273873391330402770
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8273873391330402758}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -363599832, guid: c424820a8880b8845bda10ec0b41507e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _realtime: {fileID: 0}
-  _sceneViewUUID: 
-  _viewUUID: 
-  _sceneViewPreventOwnershipTakeover: 0
-  _sceneViewDestroyWhenOwnerOrLastClientLeaves: 1
-  _sceneViewDestroyWhenOwnerOrLastClientLeavesMigrated: 0
-  _sceneViewDestroyWhenLastClientLeaves: 1
-  _components:
-  - componentID: 1
-    component: {fileID: 8273873391330402769}
-  - componentID: 2
-    component: {fileID: 5750298011185261378}
-  - componentID: 3
-    component: {fileID: 8754189820377131888}
-  _childViews: []
 --- !u!114 &5757038763917195855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -726,8 +632,6 @@ GameObject:
   - component: {fileID: 8273873391330402608}
   - component: {fileID: 4697914299408474433}
   - component: {fileID: 5450194272956301628}
-  - component: {fileID: 8273873391330402771}
-  - component: {fileID: 8273873391330402772}
   - component: {fileID: 3385767628460851739}
   m_Layer: 0
   m_Name: Purple Sphere
@@ -964,9 +868,9 @@ MonoBehaviour:
   _sceneViewDestroyWhenLastClientLeaves: 1
   _components:
   - componentID: 1
-    component: {fileID: 8273873391330402771}
+    component: {fileID: 0}
   - componentID: 2
-    component: {fileID: 8273873391330402772}
+    component: {fileID: 0}
   - componentID: 3
     component: {fileID: 5450194272956301628}
   _childViews: []
@@ -988,51 +892,6 @@ MonoBehaviour:
   _syncScale: 1
   _syncVelocity: 1
   _maintainOwnershipWhileSleeping: 0
---- !u!114 &8273873391330402771
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8273873391330402759}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1029778088, guid: c424820a8880b8845bda10ec0b41507e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interpolate: 1
-  _syncPosition: 1
-  _syncRotation: 1
-  _syncScale: 1
-  _syncVelocity: 1
-  _maintainOwnershipWhileSleeping: 0
---- !u!114 &8273873391330402772
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8273873391330402759}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -363599832, guid: c424820a8880b8845bda10ec0b41507e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _realtime: {fileID: 0}
-  _sceneViewUUID: 
-  _viewUUID: 
-  _sceneViewPreventOwnershipTakeover: 0
-  _sceneViewDestroyWhenOwnerOrLastClientLeaves: 1
-  _sceneViewDestroyWhenOwnerOrLastClientLeavesMigrated: 0
-  _sceneViewDestroyWhenLastClientLeaves: 1
-  _components:
-  - componentID: 1
-    component: {fileID: 8273873391330402771}
-  - componentID: 2
-    component: {fileID: 4697914299408474433}
-  - componentID: 3
-    component: {fileID: 5450194272956301628}
-  _childViews: []
 --- !u!114 &3385767628460851739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1061,8 +920,6 @@ GameObject:
   - component: {fileID: 8273873391330402614}
   - component: {fileID: 3749793903234839502}
   - component: {fileID: 399948010572593842}
-  - component: {fileID: 8273873391330402773}
-  - component: {fileID: 8273873391330402774}
   - component: {fileID: 3195926241413479671}
   m_Layer: 0
   m_Name: Blue Sphere
@@ -1299,9 +1156,9 @@ MonoBehaviour:
   _sceneViewDestroyWhenLastClientLeaves: 1
   _components:
   - componentID: 1
-    component: {fileID: 8273873391330402773}
+    component: {fileID: 0}
   - componentID: 2
-    component: {fileID: 8273873391330402774}
+    component: {fileID: 0}
   - componentID: 3
     component: {fileID: 399948010572593842}
   _childViews: []
@@ -1323,51 +1180,6 @@ MonoBehaviour:
   _syncScale: 1
   _syncVelocity: 1
   _maintainOwnershipWhileSleeping: 0
---- !u!114 &8273873391330402773
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8273873391330402776}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1029778088, guid: c424820a8880b8845bda10ec0b41507e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interpolate: 1
-  _syncPosition: 1
-  _syncRotation: 1
-  _syncScale: 1
-  _syncVelocity: 1
-  _maintainOwnershipWhileSleeping: 0
---- !u!114 &8273873391330402774
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8273873391330402776}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -363599832, guid: c424820a8880b8845bda10ec0b41507e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _realtime: {fileID: 0}
-  _sceneViewUUID: 
-  _viewUUID: 
-  _sceneViewPreventOwnershipTakeover: 0
-  _sceneViewDestroyWhenOwnerOrLastClientLeaves: 1
-  _sceneViewDestroyWhenOwnerOrLastClientLeavesMigrated: 0
-  _sceneViewDestroyWhenLastClientLeaves: 1
-  _components:
-  - componentID: 1
-    component: {fileID: 8273873391330402773}
-  - componentID: 2
-    component: {fileID: 3749793903234839502}
-  - componentID: 3
-    component: {fileID: 399948010572593842}
-  _childViews: []
 --- !u!114 &3195926241413479671
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1396,8 +1208,6 @@ GameObject:
   - component: {fileID: 8273873391330402572}
   - component: {fileID: 3798959776429875957}
   - component: {fileID: 6343977719548570169}
-  - component: {fileID: 8273873391330402775}
-  - component: {fileID: 8273873391330402600}
   - component: {fileID: 2655474502545693535}
   m_Layer: 0
   m_Name: Orange Sphere
@@ -1634,9 +1444,9 @@ MonoBehaviour:
   _sceneViewDestroyWhenLastClientLeaves: 1
   _components:
   - componentID: 1
-    component: {fileID: 8273873391330402775}
+    component: {fileID: 0}
   - componentID: 2
-    component: {fileID: 8273873391330402600}
+    component: {fileID: 0}
   - componentID: 3
     component: {fileID: 6343977719548570169}
   _childViews: []
@@ -1658,51 +1468,6 @@ MonoBehaviour:
   _syncScale: 1
   _syncVelocity: 1
   _maintainOwnershipWhileSleeping: 0
---- !u!114 &8273873391330402775
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8273873391330402777}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1029778088, guid: c424820a8880b8845bda10ec0b41507e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interpolate: 1
-  _syncPosition: 1
-  _syncRotation: 1
-  _syncScale: 1
-  _syncVelocity: 1
-  _maintainOwnershipWhileSleeping: 0
---- !u!114 &8273873391330402600
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8273873391330402777}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -363599832, guid: c424820a8880b8845bda10ec0b41507e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _realtime: {fileID: 0}
-  _sceneViewUUID: 
-  _viewUUID: 
-  _sceneViewPreventOwnershipTakeover: 0
-  _sceneViewDestroyWhenOwnerOrLastClientLeaves: 1
-  _sceneViewDestroyWhenOwnerOrLastClientLeavesMigrated: 0
-  _sceneViewDestroyWhenLastClientLeaves: 1
-  _components:
-  - componentID: 1
-    component: {fileID: 8273873391330402775}
-  - componentID: 2
-    component: {fileID: 3798959776429875957}
-  - componentID: 3
-    component: {fileID: 6343977719548570169}
-  _childViews: []
 --- !u!114 &2655474502545693535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1731,8 +1496,6 @@ GameObject:
   - component: {fileID: 8273873391330402562}
   - component: {fileID: 1175231400387072753}
   - component: {fileID: 1983456849236084265}
-  - component: {fileID: 8273873391330402601}
-  - component: {fileID: 8273873391330402602}
   - component: {fileID: 6056005691012722170}
   m_Layer: 0
   m_Name: Yellow Cube
@@ -1969,9 +1732,9 @@ MonoBehaviour:
   _sceneViewDestroyWhenLastClientLeaves: 1
   _components:
   - componentID: 1
-    component: {fileID: 8273873391330402601}
+    component: {fileID: 0}
   - componentID: 2
-    component: {fileID: 8273873391330402602}
+    component: {fileID: 0}
   - componentID: 3
     component: {fileID: 1983456849236084265}
   _childViews: []
@@ -1993,51 +1756,6 @@ MonoBehaviour:
   _syncScale: 1
   _syncVelocity: 1
   _maintainOwnershipWhileSleeping: 0
---- !u!114 &8273873391330402601
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8273873391330402778}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1029778088, guid: c424820a8880b8845bda10ec0b41507e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interpolate: 1
-  _syncPosition: 1
-  _syncRotation: 1
-  _syncScale: 1
-  _syncVelocity: 1
-  _maintainOwnershipWhileSleeping: 0
---- !u!114 &8273873391330402602
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8273873391330402778}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -363599832, guid: c424820a8880b8845bda10ec0b41507e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _realtime: {fileID: 0}
-  _sceneViewUUID: 
-  _viewUUID: 
-  _sceneViewPreventOwnershipTakeover: 0
-  _sceneViewDestroyWhenOwnerOrLastClientLeaves: 1
-  _sceneViewDestroyWhenOwnerOrLastClientLeavesMigrated: 0
-  _sceneViewDestroyWhenLastClientLeaves: 1
-  _components:
-  - componentID: 1
-    component: {fileID: 8273873391330402601}
-  - componentID: 2
-    component: {fileID: 1175231400387072753}
-  - componentID: 3
-    component: {fileID: 1983456849236084265}
-  _childViews: []
 --- !u!114 &6056005691012722170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2066,8 +1784,6 @@ GameObject:
   - component: {fileID: 8273873391330402584}
   - component: {fileID: 2575240206800371086}
   - component: {fileID: 2984440580727359774}
-  - component: {fileID: 8273873391330402603}
-  - component: {fileID: 8273873391330402604}
   - component: {fileID: 1952218810340968398}
   m_Layer: 0
   m_Name: Teal Cube
@@ -2304,9 +2020,9 @@ MonoBehaviour:
   _sceneViewDestroyWhenLastClientLeaves: 1
   _components:
   - componentID: 1
-    component: {fileID: 8273873391330402603}
+    component: {fileID: 0}
   - componentID: 2
-    component: {fileID: 8273873391330402604}
+    component: {fileID: 0}
   - componentID: 3
     component: {fileID: 2984440580727359774}
   _childViews: []
@@ -2328,51 +2044,6 @@ MonoBehaviour:
   _syncScale: 1
   _syncVelocity: 1
   _maintainOwnershipWhileSleeping: 0
---- !u!114 &8273873391330402603
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8273873391330402779}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1029778088, guid: c424820a8880b8845bda10ec0b41507e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interpolate: 1
-  _syncPosition: 1
-  _syncRotation: 1
-  _syncScale: 1
-  _syncVelocity: 1
-  _maintainOwnershipWhileSleeping: 0
---- !u!114 &8273873391330402604
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8273873391330402779}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -363599832, guid: c424820a8880b8845bda10ec0b41507e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _realtime: {fileID: 0}
-  _sceneViewUUID: 
-  _viewUUID: 
-  _sceneViewPreventOwnershipTakeover: 0
-  _sceneViewDestroyWhenOwnerOrLastClientLeaves: 1
-  _sceneViewDestroyWhenOwnerOrLastClientLeavesMigrated: 0
-  _sceneViewDestroyWhenLastClientLeaves: 1
-  _components:
-  - componentID: 1
-    component: {fileID: 8273873391330402603}
-  - componentID: 2
-    component: {fileID: 2575240206800371086}
-  - componentID: 3
-    component: {fileID: 2984440580727359774}
-  _childViews: []
 --- !u!114 &1952218810340968398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2401,8 +2072,6 @@ GameObject:
   - component: {fileID: 8273873391330402590}
   - component: {fileID: 3146376848716526289}
   - component: {fileID: 7324161047223694285}
-  - component: {fileID: 8273873391330402605}
-  - component: {fileID: 8273873391330402606}
   - component: {fileID: 4420392008745090393}
   m_Layer: 0
   m_Name: Blue Cube
@@ -2639,9 +2308,9 @@ MonoBehaviour:
   _sceneViewDestroyWhenLastClientLeaves: 1
   _components:
   - componentID: 1
-    component: {fileID: 8273873391330402605}
+    component: {fileID: 0}
   - componentID: 2
-    component: {fileID: 8273873391330402606}
+    component: {fileID: 0}
   - componentID: 3
     component: {fileID: 7324161047223694285}
   _childViews: []
@@ -2663,51 +2332,6 @@ MonoBehaviour:
   _syncScale: 1
   _syncVelocity: 1
   _maintainOwnershipWhileSleeping: 0
---- !u!114 &8273873391330402605
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8273873391330402780}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1029778088, guid: c424820a8880b8845bda10ec0b41507e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interpolate: 1
-  _syncPosition: 1
-  _syncRotation: 1
-  _syncScale: 1
-  _syncVelocity: 1
-  _maintainOwnershipWhileSleeping: 0
---- !u!114 &8273873391330402606
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8273873391330402780}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -363599832, guid: c424820a8880b8845bda10ec0b41507e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _realtime: {fileID: 0}
-  _sceneViewUUID: 
-  _viewUUID: 
-  _sceneViewPreventOwnershipTakeover: 0
-  _sceneViewDestroyWhenOwnerOrLastClientLeaves: 1
-  _sceneViewDestroyWhenOwnerOrLastClientLeavesMigrated: 0
-  _sceneViewDestroyWhenLastClientLeaves: 1
-  _components:
-  - componentID: 1
-    component: {fileID: 8273873391330402605}
-  - componentID: 2
-    component: {fileID: 3146376848716526289}
-  - componentID: 3
-    component: {fileID: 7324161047223694285}
-  _childViews: []
 --- !u!114 &4420392008745090393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2736,8 +2360,6 @@ GameObject:
   - component: {fileID: 8273873391330402580}
   - component: {fileID: 5272069459903333602}
   - component: {fileID: 8685221300628744084}
-  - component: {fileID: 8273873391330402607}
-  - component: {fileID: 8273873391330402592}
   - component: {fileID: 5753839708363735981}
   m_Layer: 0
   m_Name: Purple Cube
@@ -2974,9 +2596,9 @@ MonoBehaviour:
   _sceneViewDestroyWhenLastClientLeaves: 1
   _components:
   - componentID: 1
-    component: {fileID: 8273873391330402607}
+    component: {fileID: 0}
   - componentID: 2
-    component: {fileID: 8273873391330402592}
+    component: {fileID: 0}
   - componentID: 3
     component: {fileID: 8685221300628744084}
   _childViews: []
@@ -2998,51 +2620,6 @@ MonoBehaviour:
   _syncScale: 1
   _syncVelocity: 1
   _maintainOwnershipWhileSleeping: 0
---- !u!114 &8273873391330402607
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8273873391330402781}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1029778088, guid: c424820a8880b8845bda10ec0b41507e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interpolate: 1
-  _syncPosition: 1
-  _syncRotation: 1
-  _syncScale: 1
-  _syncVelocity: 1
-  _maintainOwnershipWhileSleeping: 0
---- !u!114 &8273873391330402592
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8273873391330402781}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -363599832, guid: c424820a8880b8845bda10ec0b41507e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _realtime: {fileID: 0}
-  _sceneViewUUID: 
-  _viewUUID: 
-  _sceneViewPreventOwnershipTakeover: 0
-  _sceneViewDestroyWhenOwnerOrLastClientLeaves: 1
-  _sceneViewDestroyWhenOwnerOrLastClientLeavesMigrated: 0
-  _sceneViewDestroyWhenLastClientLeaves: 1
-  _components:
-  - componentID: 1
-    component: {fileID: 8273873391330402607}
-  - componentID: 2
-    component: {fileID: 5272069459903333602}
-  - componentID: 3
-    component: {fileID: 8685221300628744084}
-  _childViews: []
 --- !u!114 &5753839708363735981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3071,8 +2648,6 @@ GameObject:
   - component: {fileID: 8273873391330402666}
   - component: {fileID: 2159286729104801014}
   - component: {fileID: 5733500726028837060}
-  - component: {fileID: 8273873391330402593}
-  - component: {fileID: 8273873391330402594}
   - component: {fileID: 1085002833157479458}
   m_Layer: 0
   m_Name: Red Cube
@@ -3309,9 +2884,9 @@ MonoBehaviour:
   _sceneViewDestroyWhenLastClientLeaves: 1
   _components:
   - componentID: 1
-    component: {fileID: 8273873391330402593}
+    component: {fileID: 0}
   - componentID: 2
-    component: {fileID: 8273873391330402594}
+    component: {fileID: 0}
   - componentID: 3
     component: {fileID: 5733500726028837060}
   _childViews: []
@@ -3333,51 +2908,6 @@ MonoBehaviour:
   _syncScale: 1
   _syncVelocity: 1
   _maintainOwnershipWhileSleeping: 0
---- !u!114 &8273873391330402593
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8273873391330402782}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1029778088, guid: c424820a8880b8845bda10ec0b41507e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interpolate: 1
-  _syncPosition: 1
-  _syncRotation: 1
-  _syncScale: 1
-  _syncVelocity: 1
-  _maintainOwnershipWhileSleeping: 0
---- !u!114 &8273873391330402594
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8273873391330402782}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -363599832, guid: c424820a8880b8845bda10ec0b41507e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _realtime: {fileID: 0}
-  _sceneViewUUID: 
-  _viewUUID: 
-  _sceneViewPreventOwnershipTakeover: 0
-  _sceneViewDestroyWhenOwnerOrLastClientLeaves: 1
-  _sceneViewDestroyWhenOwnerOrLastClientLeavesMigrated: 0
-  _sceneViewDestroyWhenLastClientLeaves: 1
-  _components:
-  - componentID: 1
-    component: {fileID: 8273873391330402593}
-  - componentID: 2
-    component: {fileID: 2159286729104801014}
-  - componentID: 3
-    component: {fileID: 5733500726028837060}
-  _childViews: []
 --- !u!114 &1085002833157479458
 MonoBehaviour:
   m_ObjectHideFlags: 0
