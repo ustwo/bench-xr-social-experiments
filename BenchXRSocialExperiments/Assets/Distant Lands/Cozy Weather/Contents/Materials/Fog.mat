@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Fog
+  m_Shader: {fileID: 4800000, guid: 6490db4c7a37d8349b85b261b7ff5cea, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - LightIntensity: 1
+    - LightIntensity1: 1
+    - _AdditionalLightIntensity: 2
+    - _BumpScale: 1
+    - _ColorStart1: 2
+    - _ColorStart2: 5
+    - _ColorStart3: 10
+    - _ColorStart4: 30
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _FogDensity: 2
+    - _FogDepthMultiplier: 1
+    - _FogDepthMultiplier1: 1
+    - _FogIntensity: 1
+    - _FogIntensity1: 1
+    - _FogOffset: 0.85
+    - _FogOffset1: 1
+    - _FogSmoothness: 100
+    - _FogSmoothness1: 100
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _LightFalloff: 21
+    - _LightFalloff1: 10
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    - __dirty: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FogColor1: {r: 0, g: 0, b: 0, a: 0.007843138}
+    - _FogColor2: {r: 0.00043852237, g: 0.14950839, b: 0.17032886, a: 0.13725491}
+    - _FogColor3: {r: 0.010723282, g: 0.16511624, b: 0.22620484, a: 0.5019608}
+    - _FogColor4: {r: 0.022368759, g: 0.21282846, b: 0.36399123, a: 0.75686276}
+    - _FogColor5: {r: 0.36705345, g: 0.63150996, b: 0.791682, a: 1}
+    - _LightColor: {r: 1.6253386, g: 1.2122567, b: 1.1115295, a: 1}
+    - _LightColor1: {r: 11.924528, g: 32, b: 29.818542, a: 0}
+    - _SunDirection: {r: 0.024385363, g: 0.4871851, b: -0.87295824, a: 0}
+    - _SunDirection1: {r: 0, g: 0, b: 0, a: 0}

@@ -683,7 +683,7 @@ PlayerSettings:
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
     1: NORMCORE
-    7: NORMCORE
+    7: NORMCORE;DISTANT_LANDS;COZY_WEATHER
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
