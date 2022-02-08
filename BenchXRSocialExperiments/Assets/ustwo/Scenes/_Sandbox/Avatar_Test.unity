@@ -2322,7 +2322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5b6ae53fe1e66d429cc41bbf5b29cb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _localAvatarPrefab: {fileID: 4581029589153058604, guid: 3ca01a41bdadc4385a9efb81900c37a1, type: 3}
+  _localAvatarPrefab: {fileID: 4581029589153058604, guid: 524ef311fe5da4524bbb902418c7c690, type: 3}
   _localPlayer:
     root: {fileID: 1831760832}
     head: {fileID: 963194228}
