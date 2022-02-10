@@ -1089,12 +1089,12 @@ MonoBehaviour:
     rotation: {x: 0, y: 0, z: 0}
   leftHand:
     follow: {fileID: 4581029587800659098}
-    target: {fileID: 8264828172521444666}
+    target: {fileID: 6413156055547164736}
     position: {x: -0.06, y: -0.02, z: -0.08}
     rotation: {x: -90, y: 90, z: 0}
   rightHand:
     follow: {fileID: 4581029587746683807}
-    target: {fileID: 1054414250664576387}
+    target: {fileID: 8196472138364575499}
     position: {x: 0.06, y: -0.02, z: -0.08}
     rotation: {x: 90, y: -90, z: 0}
   headConstraint: {fileID: 5552070172845715599}
