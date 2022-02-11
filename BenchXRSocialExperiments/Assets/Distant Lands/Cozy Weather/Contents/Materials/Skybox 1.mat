@@ -133,3 +133,4 @@ Material:
     - _SunDirection: {r: -0.05530402, g: -0.97433305, b: -0.21821257, a: 0}
     - _SunFlareColor: {r: 0.25792095, g: 0.3264449, b: 0.33962262, a: 0}
     - _ZenithColor: {r: 0.0729573, g: 0.21996306, b: 0.35619366, a: 1}
+  m_BuildTextureStacks: []
