@@ -110,8 +110,8 @@ MonoBehaviour:
       x: 1
       y: 1
       z: 1
-    m_MaintainPositionOffset: 0
-    m_MaintainRotationOffset: 0
+    m_MaintainPositionOffset: 1
+    m_MaintainRotationOffset: 1
   m_SourceObjectsGUIToggle: 1
   m_SettingsGUIToggle: 1
 --- !u!1 &1170902464915260660
@@ -1111,21 +1111,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 619483902ad094197aa9be601994f9d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turnSmoothness: 1
   head:
-    follow: {fileID: 4581029588363028010}
-    target: {fileID: 5552070172845715599}
-    position: {x: 0, y: 0, z: -0.15}
-    rotation: {x: 0, y: 0, z: 0}
+    vrTarget: {fileID: 4581029588363028010}
+    rigTarget: {fileID: 5552070172845715599}
+    trackingPositionOffset: {x: 0, y: 0, z: -0.15}
+    trackingRotationOffset: {x: 0, y: 0, z: 0}
   leftHand:
-    follow: {fileID: 4581029587800659098}
-    target: {fileID: 6413156055547164736}
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: -90, y: 90, z: 0}
+    vrTarget: {fileID: 4581029587800659098}
+    rigTarget: {fileID: 6413156055547164736}
+    trackingPositionOffset: {x: 0, y: 0, z: 0}
+    trackingRotationOffset: {x: -90, y: 90, z: 0}
   rightHand:
-    follow: {fileID: 4581029587746683807}
-    target: {fileID: 8196472138364575499}
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 90, y: -90, z: 0}
+    vrTarget: {fileID: 4581029587746683807}
+    rigTarget: {fileID: 8196472138364575499}
+    trackingPositionOffset: {x: 0, y: 0, z: 0}
+    trackingRotationOffset: {x: 90, y: -90, z: 0}
   headConstraint: {fileID: 5552070172845715599}
   headBodyOffset: {x: 0, y: -0.65, z: 0}
 --- !u!1 &4700067322090423610
