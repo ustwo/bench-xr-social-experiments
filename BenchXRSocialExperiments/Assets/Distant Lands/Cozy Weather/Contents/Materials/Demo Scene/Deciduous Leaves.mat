@@ -106,7 +106,8 @@ Material:
     - _BottomColor: {r: 0.4433962, g: 0.4433962, b: 0.4433962, a: 0}
     - _Color: {r: 0.28970483, g: 0.8000001, b: 0.23995335, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FilterColor: {r: 0.25070792, g: 0.6715396, b: 0.09351428, a: 1}
+    - _FilterColor: {r: 0.36489707, g: 0.6789014, b: 0.12847707, a: 1}
     - _SnowColor1: {r: 1, g: 1, b: 1, a: 0}
     - _TopColor: {r: 1, g: 0.90971917, b: 0.25943398, a: 0}
     - _WindDirection: {r: 1, g: 0, b: 1, a: 0}
+  m_BuildTextureStacks: []
