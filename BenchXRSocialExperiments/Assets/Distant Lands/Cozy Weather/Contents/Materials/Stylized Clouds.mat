@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Stylized Clouds
+  m_Shader: {fileID: 4800000, guid: 9aa344b8bbf838b4abf90333c8a5c80b, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlphaCutoff: 0.5
+    - _BumpScale: 1
+    - _ClippingThreshold: 0.5
+    - _CloudCover: 1
+    - _CloudCoverageScale: 400
+    - _CloudFlareFalloff: 13.4
+    - _CloudHeight: 0
+    - _Cutoff: 0.5
+    - _DetailAmount: 15
+    - _DetailNormalMapScale: 1
+    - _DetailScale: 1.15
+    - _DstBlend: 0
+    - _Float0: 0
+    - _Float1: 0.6
+    - _Float2: 0
+    - _Float3: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _MainCloudScale: 15
+    - _MaxCloudCover: 2
+    - _Metallic: 0
+    - _MinCloudCover: 1
+    - _Mode: 0
+    - _NoiseScale: 0.1
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Scale: 0.01
+    - _Sensitivity: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _Softness: 1.45
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _SunFlareFalloff: 1
+    - _SunFlareFalloff1: 1
+    - _TImeOffset: 0
+    - _Threshold: 0.21
+    - _TransAmbient: 0.222
+    - _TransDirect: 1
+    - _TransNormalDistortion: 0.126
+    - _TransScattering: 7.2
+    - _TransShadow: 0.9
+    - _Translucency: 3.7
+    - _UVSec: 0
+    - _WindSpeed: 2
+    - _ZWrite: 1
+    - __dirty: 1
+    m_Colors:
+    - _CloudColor: {r: 0.15569302, g: 0.17028561, b: 0.17589815, a: 1}
+    - _CloudCoverageMovement: {r: 5, g: 20, b: 0, a: 0}
+    - _CloudFlareColor: {r: 8.878542, g: 8.878542, b: 8.878542, a: 1}
+    - _CloudHighlightColor: {r: 1.669354, g: 1.669354, b: 1.669354, a: 1}
+    - _CloudScale: {r: 0.01, g: 0.05, b: 0.01, a: 0}
+    - _CloudWind1: {r: 0.6, g: -0.8, b: 0, a: 0}
+    - _CloudWind2: {r: 0.3, g: 0.2, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color0: {r: 1, g: 1, b: 1, a: 0}
+    - _DetailWind: {r: 0.3, g: 0.8, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SunDirection: {r: 0.3766078, g: 0.9201722, b: 0.1070049, a: 0}
+    - _SunDirection1: {r: 0.3766078, g: 0.9201722, b: 0.1070049, a: 0}
+    - _Vector0: {r: 100, g: 100, b: 0, a: 0}
