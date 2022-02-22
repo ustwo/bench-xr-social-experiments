@@ -850,7 +850,7 @@ namespace DistantLands.Cozy.EditorScripts
 #if UNITY_POST_PROCESSING_STACK_V2
 
 
-            if (!FindObjectOfType<UnityEngine.Rendering.PostProcessing.PostProcessVolume>())
+            /*if (!FindObjectOfType<UnityEngine.Rendering.PostProcessing.PostProcessVolume>())
             {
                 List<string> path = new List<string>();
                 path.Add("Assets/Distant Lands/Cozy Weather/Post FX/");
@@ -868,7 +868,7 @@ namespace DistantLands.Cozy.EditorScripts
 
                 if (!Camera.main.GetComponent<UnityEngine.Rendering.PostProcessing.PostProcessLayer>())
                     Camera.main.gameObject.AddComponent<UnityEngine.Rendering.PostProcessing.PostProcessLayer>().volumeLayer = 2;
-            }
+            }*/
 #endif
 
 
