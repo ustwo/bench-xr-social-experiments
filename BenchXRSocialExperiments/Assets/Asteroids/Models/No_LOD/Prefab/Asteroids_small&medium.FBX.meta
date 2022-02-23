@@ -1,0 +1,153 @@
+fileFormatVersion: 2
+guid: b46884e3fb180a04381425d300fe7b0e
+timeCreated: 1465434587
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Asteroid_Medium_A
+    100002: Asteroid_Medium_B
+    100004: Asteroid_Medium_C
+    100006: Asteroid_Medium_D
+    100008: Asteroid_Medium_E
+    100010: Asteroid_Medium_F
+    100012: Asteroid_Medium_G
+    100014: Asteroid_Medium_H
+    100016: Asteroid_Small_A
+    100018: Asteroid_Small_B
+    100020: Asteroid_Small_C
+    100022: Asteroid_Small_D
+    100024: Asteroid_Small_E
+    100026: Asteroid_Small_F
+    100028: Asteroid_Small_G
+    100030: Asteroid_Small_H
+    100032: //RootNode
+    400000: Asteroid_Medium_A
+    400002: Asteroid_Medium_B
+    400004: Asteroid_Medium_C
+    400006: Asteroid_Medium_D
+    400008: Asteroid_Medium_E
+    400010: Asteroid_Medium_F
+    400012: Asteroid_Medium_G
+    400014: Asteroid_Medium_H
+    400016: Asteroid_Small_A
+    400018: Asteroid_Small_B
+    400020: Asteroid_Small_C
+    400022: Asteroid_Small_D
+    400024: Asteroid_Small_E
+    400026: Asteroid_Small_F
+    400028: Asteroid_Small_G
+    400030: Asteroid_Small_H
+    400032: //RootNode
+    2300000: Asteroid_Medium_A
+    2300002: Asteroid_Medium_B
+    2300004: Asteroid_Medium_C
+    2300006: Asteroid_Medium_D
+    2300008: Asteroid_Medium_E
+    2300010: Asteroid_Medium_F
+    2300012: Asteroid_Medium_G
+    2300014: Asteroid_Medium_H
+    2300016: Asteroid_Small_A
+    2300018: Asteroid_Small_B
+    2300020: Asteroid_Small_C
+    2300022: Asteroid_Small_D
+    2300024: Asteroid_Small_E
+    2300026: Asteroid_Small_F
+    2300028: Asteroid_Small_G
+    2300030: Asteroid_Small_H
+    3300000: Asteroid_Medium_A
+    3300002: Asteroid_Medium_B
+    3300004: Asteroid_Medium_C
+    3300006: Asteroid_Medium_D
+    3300008: Asteroid_Medium_E
+    3300010: Asteroid_Medium_F
+    3300012: Asteroid_Medium_G
+    3300014: Asteroid_Medium_H
+    3300016: Asteroid_Small_A
+    3300018: Asteroid_Small_B
+    3300020: Asteroid_Small_C
+    3300022: Asteroid_Small_D
+    3300024: Asteroid_Small_E
+    3300026: Asteroid_Small_F
+    3300028: Asteroid_Small_G
+    3300030: Asteroid_Small_H
+    4300000: Asteroid_Medium_A
+    4300002: Asteroid_Medium_B
+    4300004: Asteroid_Medium_C
+    4300006: Asteroid_Small_B
+    4300008: Asteroid_Small_C
+    4300010: Asteroid_Small_A
+    4300012: Asteroid_Small_D
+    4300014: Asteroid_Medium_D
+    4300016: Asteroid_Medium_F
+    4300018: Asteroid_Medium_G
+    4300020: Asteroid_Medium_H
+    4300022: Asteroid_Medium_E
+    4300024: Asteroid_Small_G
+    4300026: Asteroid_Small_E
+    4300028: Asteroid_Small_F
+    4300030: Asteroid_Small_H
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .100000001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
