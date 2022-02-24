@@ -215,7 +215,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3807665996421933978}
   m_LocalRotation: {x: 0.000000029802319, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.0986118e-15, y: 1.5691123, z: -0.0048395917}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1822295849277178853}
@@ -827,7 +827,7 @@ MonoBehaviour:
   head:
     vrTarget: {fileID: 5441120621109218208}
     rigTarget: {fileID: 1822295849277178853}
-    trackingPositionOffset: {x: 0, y: 0.15, z: -0.15}
+    trackingPositionOffset: {x: 0, y: 0, z: 0}
     trackingRotationOffset: {x: 0, y: 0, z: 0}
   leftHand:
     vrTarget: {fileID: 5441120620563904784}
@@ -840,7 +840,7 @@ MonoBehaviour:
     trackingPositionOffset: {x: 0, y: 0, z: 0}
     trackingRotationOffset: {x: 90, y: -90, z: 0}
   headConstraint: {fileID: 3807665996421933979}
-  headBodyOffset: {x: 0, y: -0.65, z: 0}
+  headBodyOffset: {x: 0, y: 0, z: 0}
 --- !u!1 &5441120620563904751
 GameObject:
   m_ObjectHideFlags: 0
@@ -1380,7 +1380,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6652283053690322411}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 2.0986118e-15, y: 1.5691123, z: -0.0048396853}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3807665996421933979}
