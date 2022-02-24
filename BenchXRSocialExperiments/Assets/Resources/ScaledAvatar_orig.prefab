@@ -217,7 +217,8 @@ Transform:
   m_LocalRotation: {x: 0.000000029802319, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.0986118e-15, y: 1.5691123, z: -0.0048395917}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1822295849277178853}
   m_Father: {fileID: 3807665995700420276}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -239,7 +240,7 @@ MonoBehaviour:
     m_SourceObjects:
       m_Length: 1
       m_Item0:
-        transform: {fileID: 3807665996421933979}
+        transform: {fileID: 1822295849277178853}
         weight: 1
       m_Item1:
         transform: {fileID: 0}
@@ -825,7 +826,7 @@ MonoBehaviour:
   turnSmoothness: 1
   head:
     vrTarget: {fileID: 5441120621109218208}
-    rigTarget: {fileID: 3807665996421933979}
+    rigTarget: {fileID: 1822295849277178853}
     trackingPositionOffset: {x: 0, y: 0.15, z: -0.15}
     trackingRotationOffset: {x: 0, y: 0, z: 0}
   leftHand:
@@ -1355,6 +1356,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &6652283053690322411
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1822295849277178853}
+  m_Layer: 0
+  m_Name: IK_Head_target
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1822295849277178853
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6652283053690322411}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3807665996421933979}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7049945928381004537
 GameObject:
   m_ObjectHideFlags: 0
@@ -1936,12 +1967,12 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7339096384429201676}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 9000000, guid: 91028badc63f59f43a9c5bda64fbd608, type: 3}
   m_Controller: {fileID: 0}
   m_CullingMode: 1
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
