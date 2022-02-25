@@ -423,14 +423,13 @@ GameObject:
   - component: {fileID: 2054379397871896704}
   - component: {fileID: 2054379397871896719}
   - component: {fileID: 2028446488863080082}
-  - component: {fileID: 4091766943642324330}
   - component: {fileID: 2054379397871896721}
   - component: {fileID: 2054379397871896720}
   - component: {fileID: 2054379397871896722}
   - component: {fileID: 2054379397871896723}
   m_Layer: 0
   m_Name: TestAvatar
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -479,8 +478,6 @@ MonoBehaviour:
     component: {fileID: 2054379397871896719}
   - componentID: 3
     component: {fileID: 2028446488863080082}
-  - componentID: 4
-    component: {fileID: 4091766943642324330}
   _childViews:
   - viewID: 1
     view: {fileID: 2054379399765172620}
@@ -534,21 +531,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerNameText: {fileID: 5590922741633813620}
---- !u!114 &4091766943642324330
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2054379397871896718}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4aeb6543b421f4a49b2d8ef4fc77dcad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characterModelContainer: {fileID: 2522069363950806362}
-  characterSkinMaterials:
-  - {fileID: 2100000, guid: d1be20f89b7db4272abf21ccacf317ce, type: 2}
 --- !u!95 &2054379397871896721
 Animator:
   serializedVersion: 3
@@ -2703,7 +2685,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 62e25ef75a2216f418d06453c9ad15cb, type: 2}
+  - {fileID: 2100000, guid: c01b7c8cb1175b54aab24b670c2d58dd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3465,9 +3447,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2522069363950806362}
   - component: {fileID: 2467975374301394820}
+  - component: {fileID: 6429067498342845319}
   m_Layer: 0
   m_Name: Characters
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3516,6 +3499,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!136 &6429067498342845319
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2528559380845956414}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.12
+  m_Height: 0.75
+  m_Direction: 1
+  m_Center: {x: 0, y: 1.13, z: 0.12}
 --- !u!1 &2528573137809094180
 GameObject:
   m_ObjectHideFlags: 0

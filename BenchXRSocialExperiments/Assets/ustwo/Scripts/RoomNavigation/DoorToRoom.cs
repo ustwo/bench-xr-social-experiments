@@ -9,7 +9,7 @@ public class DoorToRoom : MonoBehaviour
     public String goToScene;
     private RoomConnector roomConnector;
     private string roomName;
-    
+
     void Start()
     {
         roomConnector = FindObjectOfType<RoomConnector>();
