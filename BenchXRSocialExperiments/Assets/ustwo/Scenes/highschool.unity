@@ -2553,7 +2553,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _obsoleteAppKey: 
   _normcoreAppSettings: {fileID: 11400000, guid: a9a3f660eb1194bf69735eef87884c01, type: 2}
-  _roomToJoinOnStart: Lobby
+  _roomToJoinOnStart: highschool
   _joinRoomOnStart: 1
 --- !u!4 &808124826
 Transform:

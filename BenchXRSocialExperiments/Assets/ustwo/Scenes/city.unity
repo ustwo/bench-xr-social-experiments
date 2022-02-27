@@ -1397,19 +1397,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 764484437588806445, guid: 9a118a53adef55a479045a26c28f920e, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.32682055
+      value: 0.3286917
       objectReference: {fileID: 0}
     - target: {fileID: 764484437588806445, guid: 9a118a53adef55a479045a26c28f920e, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.17168686
+      value: -0.17217898
       objectReference: {fileID: 0}
     - target: {fileID: 764484437588806445, guid: 9a118a53adef55a479045a26c28f920e, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.8987717
+      value: -0.89808905
       objectReference: {fileID: 0}
     - target: {fileID: 764484437588806445, guid: 9a118a53adef55a479045a26c28f920e, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.23647718
+      value: -0.23611912
       objectReference: {fileID: 0}
     - target: {fileID: 2020168424261430803, guid: 9a118a53adef55a479045a26c28f920e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3127,7 +3127,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _obsoleteAppKey: 
   _normcoreAppSettings: {fileID: 11400000, guid: a9a3f660eb1194bf69735eef87884c01, type: 2}
-  _roomToJoinOnStart: Lobby
+  _roomToJoinOnStart: city
   _joinRoomOnStart: 1
 --- !u!4 &2138311964
 Transform:
