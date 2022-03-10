@@ -3175,7 +3175,7 @@ GameObject:
   - component: {fileID: 4752937491734201683}
   m_Layer: 0
   m_Name: Characters
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3215,10 +3215,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.12
-  m_Height: 0.75
+  m_Radius: 12.6
+  m_Height: 79.39
   m_Direction: 1
-  m_Center: {x: 0, y: 1.13, z: 0.12}
+  m_Center: {x: 0, y: 3.3, z: 0.12}
 --- !u!1 &8498621323390547879
 GameObject:
   m_ObjectHideFlags: 0
