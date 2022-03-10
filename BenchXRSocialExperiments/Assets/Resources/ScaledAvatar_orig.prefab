@@ -606,7 +606,7 @@ GameObject:
   - component: {fileID: 5441120619774059099}
   m_Layer: 0
   m_Name: ScaledAvatar_orig
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1927,6 +1927,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7337551483102713020}
   - component: {fileID: 7244448565194898106}
+  - component: {fileID: 661850297388445669}
   m_Layer: 0
   m_Name: Characters
   m_TagString: Untagged
@@ -1978,6 +1979,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!136 &661850297388445669
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7339096384429201676}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.12
+  m_Height: 0.75
+  m_Direction: 1
+  m_Center: {x: 0, y: 1.13, z: 0.12}
 --- !u!1 &7339134610248695100
 GameObject:
   m_ObjectHideFlags: 0
