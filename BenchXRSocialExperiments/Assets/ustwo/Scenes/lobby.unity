@@ -405,25 +405,25 @@ Transform:
   - {fileID: 2018848349}
   - {fileID: 1062846833}
   - {fileID: 824440733}
-  - {fileID: 1780621528}
   - {fileID: 843835377}
+  - {fileID: 1780621528}
   - {fileID: 143963584}
   - {fileID: 1337985444}
-  - {fileID: 2098381302}
-  - {fileID: 1552143838}
   - {fileID: 260776948}
+  - {fileID: 1552143838}
   - {fileID: 768932157}
+  - {fileID: 2098381302}
   - {fileID: 66302277}
   - {fileID: 266694114}
   - {fileID: 1906606585}
   - {fileID: 1300390495}
   - {fileID: 555078979}
-  - {fileID: 1090967050}
   - {fileID: 2072991033}
+  - {fileID: 1090967050}
   - {fileID: 772719116}
-  - {fileID: 761944259}
   - {fileID: 692580504}
   - {fileID: 1750209008}
+  - {fileID: 761944259}
   - {fileID: 1177767582}
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -3521,7 +3521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5b6ae53fe1e66d429cc41bbf5b29cb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _localAvatarPrefab: {fileID: 2054379397871896718, guid: 48d6fb4aab9a61d4080a51390fa23e9b, type: 3}
+  _localAvatarPrefab: {fileID: 4581029589153058604, guid: 524ef311fe5da4524bbb902418c7c690, type: 3}
   _localPlayer:
     root: {fileID: 1831760832}
     head: {fileID: 963194228}

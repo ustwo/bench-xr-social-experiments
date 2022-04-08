@@ -240,7 +240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5b6ae53fe1e66d429cc41bbf5b29cb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _localAvatarPrefab: {fileID: 2054379397871896718, guid: 48d6fb4aab9a61d4080a51390fa23e9b, type: 3}
+  _localAvatarPrefab: {fileID: 4581029589153058604, guid: 524ef311fe5da4524bbb902418c7c690, type: 3}
   _localPlayer:
     root: {fileID: 1805031149}
     head: {fileID: 1624962068}
@@ -261,7 +261,7 @@ MonoBehaviour:
   _obsoleteAppKey: 
   _normcoreAppSettings: {fileID: 11400000, guid: a9a3f660eb1194bf69735eef87884c01, type: 2}
   _roomToJoinOnStart: space
-  _joinRoomOnStart: 1
+  _joinRoomOnStart: 0
 --- !u!4 &131886042
 Transform:
   m_ObjectHideFlags: 0
