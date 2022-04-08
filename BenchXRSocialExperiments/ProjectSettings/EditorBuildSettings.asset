@@ -5,9 +5,24 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/ustwo/Scenes/Lobby.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/ustwo/Scenes/lobby.unity
+    guid: b493d68904faf468fb958d998602f4f1
+  - enabled: 1
+    path: Assets/ustwo/Scenes/city.unity
+    guid: c4b847949b93042b498a3bff247f7a74
+  - enabled: 1
+    path: Assets/ustwo/Scenes/highschool.unity
+    guid: 1f7b4b5eaded52a4cb3951afa9a6b23c
+  - enabled: 1
+    path: Assets/ustwo/Scenes/space.unity
+    guid: 4c4284def36ec454b9af6f3e80f5725a
+  - enabled: 1
+    path: Assets/ustwo/Scenes/valley.unity
+    guid: 42f7bab1ca9f91a4db5adb4a71c5c969
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 47e348bee4400844bbddf68243e9d936, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 882078361e3a47b4d9ebe79fda0f4321, type: 2}

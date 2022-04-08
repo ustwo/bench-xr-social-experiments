@@ -2554,7 +2554,7 @@ MonoBehaviour:
   _obsoleteAppKey: 
   _normcoreAppSettings: {fileID: 11400000, guid: a9a3f660eb1194bf69735eef87884c01, type: 2}
   _roomToJoinOnStart: highschool
-  _joinRoomOnStart: 1
+  _joinRoomOnStart: 0
 --- !u!4 &808124826
 Transform:
   m_ObjectHideFlags: 0
